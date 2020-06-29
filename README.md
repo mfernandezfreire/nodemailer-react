@@ -5,7 +5,7 @@
 ## SERVER SIDE -  CONFIGURATION
 
 ### .ENV
-- PORT=4000 => Define el puerto que quieras, aunque si ejecutas en el puerto 3000 en local ya sabes que coincidirá con react. Si finalmente decides variar el puerto recuerda cambiar tambien en /client/src/app.js el localhost en axios.
+- PORT=4000 => Define el puerto que quieras, aunque si lo ejecutas en el puerto 3000 en local ya sabes que coincidirá con react. Si finalmente decides variar el puerto recuerda cambiar tambien en /client/src/app.js el localhost en axios.
 - cloudName = your_user_name
 - cloudKey = your_key
 - cloudSecret = thats_your_cloud_service
