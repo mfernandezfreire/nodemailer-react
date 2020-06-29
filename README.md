@@ -5,7 +5,7 @@
 ## SERVER SIDE -  CONFIGURATION
 
 ### .ENV
-- PORT=4000 => Define el puerto que quieras, pero recuerda variarlo tambien en la llamada axios del CLIENT.
+- PORT=4000 => Define el puerto que quieras, aunque si ejecutas en el 3000 en local ya sabes que coincidirá con react. Recuerda variarlo tambien en la llamada axios del CLIENT.
 - cloudName = your_user_name
 - cloudKey = your_key
 - cloudSecret = thats_your_cloud_service
