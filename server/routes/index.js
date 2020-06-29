@@ -10,10 +10,10 @@ router.get("/", (req, res, next) => {
 router.post("/send-email", (req, res, next) => {
   let { email, subject, message } = req.body;
   let transporter = nodemailer.createTransport({
-    service: "Gmail",
+    service: "Gmail", // Your service name
     auth: {
-      user: "manufernandezfreire@gmail.com",
-      pass: "NuncaMais2601",
+      user: "your user here", // Your email username
+      pass: "your password here", // Your password
     },
   });
   transporter
