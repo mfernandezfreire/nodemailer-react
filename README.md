@@ -5,10 +5,10 @@
 ## SERVER SIDE -  CONFIGURATION
 
 ### .ENV
-PORT=4000 => Define el puerto que quieras, pero recuerda variarlo tambien en la llamada axios del CLIENT.
-cloudName = your_user_name
-cloudKey = your_key
-cloudSecret = thats_your_cloud_service
+- PORT=4000 => Define el puerto que quieras, pero recuerda variarlo tambien en la llamada axios del CLIENT.
+- cloudName = your_user_name
+- cloudKey = your_key
+- cloudSecret = thats_your_cloud_service
 
 ### /ROUTES/INDEX.JS
 Define el correo electronico de destino!!
@@ -22,8 +22,5 @@ https://support.google.com/accounts/answer/6010255?hl=es#:~:text=Para%20proteger
 Si quieres eliminar el problema directamente sin pasar por la casilla de salida ; ), visita este enlace =>
 
 https://myaccount.google.com/lesssecureapps
-
-
-
 
 
